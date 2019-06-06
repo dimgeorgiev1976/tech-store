@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vue sample</title>
+</head>
+<body>
+	<div id="app">
+		<ul>
+			<template v-for='order in orders'>
+				<li>{{ order.title }}</li>
+				<li>{{ order.cost }}</li>
+			</template>
+		</ul>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script>
+const app = new Vue({
+	el: '#app',
+
+	data: {
+		orders: [
+			{
+				id: 0,
+				title: 'Перчатки',
+				cost: 10000
+			},
+			{
+				id: 1,
+				title: 'Коньки',
+				cost: 100000
+			},
+			{
+				id: 2,
+				title: 'Сноуборд',
+				cost: 250000
+			}
+		]
+	}
+})
+
+	</script>
+</body>
+</html>

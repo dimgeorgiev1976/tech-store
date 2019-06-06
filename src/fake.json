@@ -1,0 +1,112 @@
+[
+	{	
+		"id": 1,
+		"price": 79989,
+		"oldPrice": 89989,
+		"isPhone": true,
+		"src": "/assets/img/products/macbook.jpg",
+		"title": "Apple iPhone X 256 ГБ «серый космос»",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, repudiandae."
+	},
+	{	
+		"id": 2,
+		"price": 79989,
+		"isFavorites": true,
+		"isDiscount": true,
+		"isPhone": true,
+		"src": "/assets/img/products/iphone.jpg",
+		"title": "Apple iPhone X 256 ГБ «серый космос»",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, qui."
+	},
+	{
+		"id": 3,
+		"price": 79989,
+		"oldPrice": 89989,
+		"isNew": true,
+		"isPhone": true,
+		"src": "/assets/img/products/iphone.jpg",
+		"title": "Apple iPhone X 256 ГБ «серый космос»",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, dolores."
+	},
+	{
+		"id": 4,
+		"price": 79989,
+		"oldPrice": 89989,
+		"isDiscount": true,
+		"isPhone": true,
+		"src": "/assets/img/products/iphone.jpg",
+		"title": "Apple iPhone X 256 ГБ «серый космос»",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, amet?"
+	},
+		{
+		"id": 5,
+		"price": 164990,
+		"oldPrice": 185990,
+		"isDiscount": true,
+		"isIpad": true,
+		"src": "/assets/img/products/ipad.jpg",
+		"title": "Apple iMac 27\" Retina 5K Core i5 3.8 ГГц, 8 ГБ, 2 ТБ Fusion Drive, Radeon Pro 580 8 ГБ",
+		"description": "<p>Настольный компьютер, который погружает вас в контент. Буквально. Эта идея лежит в основе современного iMac — и сегодня она актуальна как никогда.\n \n Совершенно новые процессоры, инновационные графические технологии, передовые накопители и разъёмы с впечатляющей пропускной способностью — всё это новый iMac. А его дисплей Retina способен оживить любую картинку, ведь по яркости и качеству цветопередачи ему нет равных среди iMac.\n\nРаботать на iMac теперь ещё интереснее и увлекательнее."
+	},
+
+		{
+		"id": 6,
+		"price": 164990,
+		"oldPrice": 185990,
+		"isDiscount": true,
+		"isIpad": true,
+		"src": "/assets/img/products/mac-pro.jpg",
+		"title": "Apple iMac 27\" Retina 5K Core i5 3.8 ГГц, 8 ГБ, 2 ТБ Fusion Drive, Radeon Pro 580 8 ГБ",
+		"description": "<p>Настольный компьютер, который погружает вас в контент. Буквально. Эта идея лежит в основе современного iMac — и сегодня она актуальна как никогда.\n \n Совершенно новые процессоры, инновационные графические технологии, передовые накопители и разъёмы с впечатляющей пропускной способностью — всё это новый iMac. А его дисплей Retina способен оживить любую картинку, ведь по яркости и качеству цветопередачи ему нет равных среди iMac.\n\nРаботать на iMac теперь ещё интереснее и увлекательнее."
+	},
+		{
+		"id": 7,
+		"price": 164990,
+		"oldPrice": 185990,
+		"isDiscount": true,
+		"isIpad": true,
+		"src": "/assets/img/products/ipad.jpg",
+		"title": "Apple iMac 27\" Retina 5K Core i5 3.8 ГГц, 8 ГБ, 2 ТБ Fusion Drive, Radeon Pro 580 8 ГБ",
+		"description": "<p>Настольный компьютер, который погружает вас в контент. Буквально. Эта идея лежит в основе современного iMac — и сегодня она актуальна как никогда.\n \n Совершенно новые процессоры, инновационные графические технологии, передовые накопители и разъёмы с впечатляющей пропускной способностью — всё это новый iMac. А его дисплей Retina способен оживить любую картинку, ведь по яркости и качеству цветопередачи ему нет равных среди iMac.\n\nРаботать на iMac теперь ещё интереснее и увлекательнее."
+	},
+	{
+		"id": 8,
+		"price": 164990,
+		"oldPrice": 185990,
+		"isDiscount": true,
+		"isPc": true,
+		"src": "/assets/img/products/imac.jpg",
+		"title": "Apple iMac 27\" Retina 5K Core i5 3.8 ГГц, 8 ГБ, 2 ТБ Fusion Drive, Radeon Pro 580 8 ГБ",
+		"description": "<p>Настольный компьютер, который погружает вас в контент. Буквально. Эта идея лежит в основе современного iMac — и сегодня она актуальна как никогда.\n \n Совершенно новые процессоры, инновационные графические технологии, передовые накопители и разъёмы с впечатляющей пропускной способностью — всё это новый iMac. А его дисплей Retina способен оживить любую картинку, ведь по яркости и качеству цветопередачи ему нет равных среди iMac.\n\nРаботать на iMac теперь ещё интереснее и увлекательнее."
+	},
+	{
+		"id": 9,
+		"price": 164990,
+		"oldPrice": 185990,
+		"isDiscount": true,
+		"isPc": true,
+		"src": "/assets/img/products/old/imac-big.jpg",
+		"title": "Apple iMac 27\" Retina 5K Core i5 3.8 ГГц, 8 ГБ, 2 ТБ Fusion Drive, Radeon Pro 580 8 ГБ",
+		"description": "<p>Настольный компьютер, который погружает вас в контент. Буквально. Эта идея лежит в основе современного iMac — и сегодня она актуальна как никогда.\n \n Совершенно новые процессоры, инновационные графические технологии, передовые накопители и разъёмы с впечатляющей пропускной способностью — всё это новый iMac. А его дисплей Retina способен оживить любую картинку, ведь по яркости и качеству цветопередачи ему нет равных среди iMac.\n\nРаботать на iMac теперь ещё интереснее и увлекательнее."
+	},
+	{
+		"id": 10,
+		"price": 164990,
+		"oldPrice": 185990,
+		"isDiscount": true,
+		"isNotebook": true,
+		"src": "/assets/img/products/macbook.jpg",
+		"title": "Apple iMac 27\" Retina 5K Core i5 3.8 ГГц, 8 ГБ, 2 ТБ Fusion Drive, Radeon Pro 580 8 ГБ",
+		"description": "<p>Настольный компьютер, который погружает вас в контент. Буквально. Эта идея лежит в основе современного iMac — и сегодня она актуальна как никогда.\n \n Совершенно новые процессоры, инновационные графические технологии, передовые накопители и разъёмы с впечатляющей пропускной способностью — всё это новый iMac. А его дисплей Retina способен оживить любую картинку, ведь по яркости и качеству цветопередачи ему нет равных среди iMac.\n\nРаботать на iMac теперь ещё интереснее и увлекательнее."
+	},
+		{
+		"id": 11,
+		"price": 164990,
+		"oldPrice": 185990,
+		"isDiscount": true,
+		"isNotebook": true,
+		"src": "/assets/img/products/macbook.jpg",
+		"title": "Apple iMac 27\" Retina 5K Core i5 3.8 ГГц, 8 ГБ, 2 ТБ Fusion Drive, Radeon Pro 580 8 ГБ",
+		"description": "<p>Настольный компьютер, который погружает вас в контент. Буквально. Эта идея лежит в основе современного iMac — и сегодня она актуальна как никогда.\n \n Совершенно новые процессоры, инновационные графические технологии, передовые накопители и разъёмы с впечатляющей пропускной способностью — всё это новый iMac. А его дисплей Retina способен оживить любую картинку, ведь по яркости и качеству цветопередачи ему нет равных среди iMac.\n\nРаботать на iMac теперь ещё интереснее и увлекательнее."
+	}
+]
