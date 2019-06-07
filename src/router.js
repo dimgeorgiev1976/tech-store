@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import ProductPage from '@/components/ProductPage/index'
 import CartPage from '@/components/CartPage/index'
 import MainPage from '@/components/MainPage/index'
+import SuccessPage from '@/components/SuccessPage/index'
 
 Vue.use(Router)
 
@@ -23,9 +24,13 @@ const router = new Router({
 			path: '/product/:id',
 			component: ProductPage
 		},
-				{
+		{
 			path: '/cart',
 			component: CartPage
+		},
+		{
+			path: '/success',
+			component: SuccessPage
 		}
 	]
 })

@@ -40,6 +40,11 @@ const cartStore = {
 			saveToLocalStorage()
 		},
 
+		success (state) {
+			state.list = []
+			saveToLocalStorage()
+		},
+
 		favoriteToggle (state, id) {
 			if (state.favorites.includes(id)) {
 				const index = state.favorites.indexOf(id)
@@ -78,10 +83,18 @@ const cartStore = {
 		remove ({ commit }, id) {
 			commit('set', { id, count: 0 })
 		},
+		
+		success ({ commit }, id) {
+			success('set', { id, count: 0 })
+		},
 
 		clear ({ commit }) {
 			commit('clear')
 		},
+
+		// success ({ commit }) {
+		// 	commit( 'success' )
+		// },
 
 		favoriteToggle ({ commit }, id) {
 			commit('favoriteToggle', id)

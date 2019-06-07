@@ -56,10 +56,12 @@
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Адрес">
                 </div>
-
                 <div class="d-flex justify-content-between">
                     <div class="form-group">
-                        <button type="submit" class="btn btn-primary" @click.prevent>Оформить заказ</button>
+                        <router-link :to='`/success`'>
+                            <button type="submit" class="btn btn-primary" >Оформить заказ</button>
+                       </router-link>
+             <!--             <button type="submit" class="btn btn-primary" @click.prevent="success('/success')">Оформить заказ</button> -->
                     </div>
                     <div class="form-group">
                         <a href="http://estore-new/actions/cart-reset.php" class="btn btn-light" @click.prevent="$store.dispatch('cart/clear')">Очистить корзину</a>
@@ -88,7 +90,8 @@ export default {
         ...mapGetters({
             products: 'cart/order',
             totalCount: 'cart/totalCount',
-            totalPrice: 'cart/totalPrice'
+            totalPrice: 'cart/totalPrice',
+
         })
     },
     methods: {
@@ -100,6 +103,10 @@ export default {
         },
         remove (id) {
             this.$store.dispatch('cart/remove', id)
+        },
+        success (id) {
+            console.log( this.$store.dispatch('/success', id))
+            // this.$store.dispatch('/success', id)
         }
     }
 }
